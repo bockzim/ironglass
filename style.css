@@ -1,0 +1,119 @@
+.hero {
+  height: 100vh;
+  background: 
+    linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+    url('img/pexels-hassan-yahia-3582980-5362681.jpg') no-repeat center/cover;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  padding: 20px;
+}
+
+.hero-content {
+  max-width: 600px;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+}
+
+.hero p {
+  font-size: 1.1rem;
+  margin-bottom: 25px;
+  opacity: 0.8;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+}
+
+.btn {
+  padding: 12px 24px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.primary {
+  background: #3b82f6;
+  color: white;
+}
+
+.primary:hover {
+  background: #2563eb;
+}
+
+.secondary {
+  border: 2px solid white;
+  color: white;
+}
+
+.secondary:hover {
+  background: white;
+  color: black;
+}
+
+.minha-navbar {
+  background-color: #0f172a;
+  color: red;
+}
+
+
+.section {
+  padding: 100px 20px;
+}
+
+.carousel {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.carousel img {
+  height: 350px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.collapse {
+  transition: all 0.4s ease;
+}
+
+#servico{
+  background-color: wheat;
+}
+
+.card-servico {
+  background: #f3e8df;
+  padding: 25px;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.card-servico:hover {
+  transform: translateY(-5px);
+}
+
+.carousel img,
+.card-servico img {
+  height: 250px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+#conheca{
+  font-size: 80px;
+}
+
+#projeto{
+  background: linear-gradient(135deg, #ff8239, #525252);
+  
+}
+
