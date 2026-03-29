@@ -117,3 +117,16 @@
   
 }
 
+.card-servico {
+  background: linear-gradient(135deg, #e8e8e8, #ffffff);
+  padding: 25px;
+  border-radius: 15px;
+  transition: 0.3s;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+}
+
+.card-servico:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 25px rgba(0,0,0,0.12);
+}
+
