@@ -1,7 +1,7 @@
 .hero {
   height: 100vh;
-  background: 
-    linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     url('img/pexels-hassan-yahia-3582980-5362681.jpg') no-repeat center/cover;
 
   display: flex;
@@ -85,7 +85,7 @@
   transition: all 0.4s ease;
 }
 
-#servico{
+#servico {
   background-color: wheat;
 }
 
@@ -108,25 +108,24 @@
   border-radius: 10px;
 }
 
-#conheca{
+#conheca {
   font-size: 80px;
 }
 
-#projeto{
+#projeto {
   background: linear-gradient(135deg, #ff8239, #525252);
-  
+
 }
 
 .card-servico {
-  background: linear-gradient(135deg, #e8e8e8, #ffffff);
+  background: linear-gradient(135deg, #1f1f1f, #e7e7e7);
   padding: 25px;
   border-radius: 15px;
-  transition: 0.3s;
   box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+  overflow: hidden;
 }
 
-.card-servico:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 12px 25px rgba(0,0,0,0.12);
+.carousel-inner img {
+  border-radius: 10px;
 }
 
