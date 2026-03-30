@@ -111,7 +111,7 @@
 }
 
 #projeto {
-  background: linear-gradient(135deg, #ff8239, #525252);
+  background: linear-gradient(135deg, #1f1f1f, #e7e7e7)
 
 }
 
@@ -148,7 +148,6 @@
 }
 
 .section {
-   
   padding: 80px 20px;
 }
 
@@ -189,4 +188,10 @@
 #historia{
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 20px;
+  text-align: justify;
+}
+
+#servico{
+  background: linear-gradient(135deg, #ff8239, #525252)
+
 }
