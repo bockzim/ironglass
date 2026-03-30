@@ -111,7 +111,7 @@
 }
 
 #projeto {
-  background: linear-gradient(135deg, #1f1f1f, #e7e7e7)
+  
 
 }
 
@@ -191,7 +191,15 @@
   text-align: justify;
 }
 
-#servico{
-  background: linear-gradient(135deg, #ff8239, #525252)
+#servico {
+ }
+
+body{
+  background: linear-gradient(135deg, 
+  #fd8617 0%, 
+  #363636 60%, 
+  #ffffff 100%
+);
 
 }
+
