@@ -192,13 +192,14 @@
 }
 
 #servico {
+  color: #272727;
  }
 
 body{
   background: linear-gradient(135deg, 
-  #fd8617 0%, 
-  #363636 60%, 
-  #ffffff 100%
+  
+  #363636, 
+  #ffffff 
 );
 
 }
