@@ -1,0 +1,36 @@
+/* Fonte variável usada no efeito de proximidade do cursor: Inter
+   Variable, hospedada no rsms.me — mesma fonte do componente original
+   que você mandou. Self-hosted (fora do Google Fonts) de propósito:
+   bloqueadores de anúncio/privacidade (Brave, uBlock etc.) costumam
+   barrar fonts.googleapis.com/fonts.gstatic.com, o que impede a fonte
+   variável de carregar e trava o efeito silenciosamente. */
+@font-face {
+  font-family: "InterVariableIronglass";
+  src: url("https://rsms.me/inter/font-files/InterVariable.woff2?v=4.0") format("woff2-variations");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Elemento com o efeito ativo: precisa da fonte variável pro eixo
+   `wght` funcionar (fontes estáticas ignoram font-variation-settings). */
+.vf-proximity {
+  /* !important garante prioridade sobre regras por #id (ex: #historia,
+     que define outra fonte em style.css) — necessário porque o efeito
+     só funciona em fonte VARIÁVEL. */
+  font-family: "InterVariableIronglass", "Inter", system-ui, sans-serif !important;
+}
+
+.vf-word {
+  display: inline-block;
+  white-space: nowrap;
+}
+
+.vf-letter {
+  display: inline-block;
+  font-variation-settings: "wght" 400;
+}
+
+.vf-space {
+  display: inline-block;
+}

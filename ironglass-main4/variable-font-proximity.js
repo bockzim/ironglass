@@ -140,7 +140,18 @@
     // Remede quando a fonte variável termina de carregar (o texto pode
     // reposicionar levemente) e quando a janela é redimensionada.
     if (document.fonts && document.fonts.ready) {
-      document.fonts.ready.then(measurePositions);
+      document.fonts.ready.then(() => {
+        measurePositions();
+        const loaded = document.fonts.check('900 16px "InterVariableIronglass"');
+        if (!loaded) {
+          console.warn(
+            '[variable-font-proximity] A fonte variável "InterVariableIronglass" não carregou — ' +
+            "o efeito não vai mudar visualmente o peso das letras (a interação/JS continua rodando " +
+            "normalmente). Verifique a aba Network do DevTools pela requisição a rsms.me, e se algum " +
+            "bloqueador de anúncio/privacidade não está travando o download."
+          );
+        }
+      });
     }
 
     let resizeTimeout;
