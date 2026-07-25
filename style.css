@@ -148,15 +148,14 @@
 }
 
 #c1{
-  background: linear-gradient(to right, #000000, #ffffff);
+  background: linear-gradient(135deg, #000000, #ffffff);
 }
 #c2{
-  background: linear-gradient(to left, #000000, #ffffff);
+  background: linear-gradient(135deg , #000000, #ffffff);
 }
 #c3{
-  background: linear-gradient(to right, #000000, #ffffff);
+  background: linear-gradient(135deg, #000000, #ffffff);
 }
-
 
 .servico-item {
   padding: 40px;
@@ -199,7 +198,7 @@
 }
 
 #servico {
-  color: #707070;
+  color: #000000;
  }
 
 body{
