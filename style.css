@@ -88,7 +88,7 @@
 
 
 .card-servico {
-  background: #f3e8df;
+  background: linear-gradient(135deg, #1f1f1f, #e7e7e7);
   padding: 25px;
   border-radius: 15px;
   cursor: pointer;
@@ -108,11 +108,7 @@
 
 #conheca {
   font-size: 80px;
-}
-
-#projeto {
-  
-
+  color: #707070;
 }
 
 .card-servico {
@@ -151,8 +147,18 @@
   padding: 80px 20px;
 }
 
+#c1{
+  background: linear-gradient(to right, #000000, #ffffff);
+}
+#c2{
+  background: linear-gradient(to left, #000000, #ffffff);
+}
+#c3{
+  background: linear-gradient(to right, #000000, #ffffff);
+}
+
+
 .servico-item {
-  background: linear-gradient(135deg, #f5f5f5, #ffffff);
   padding: 40px;
   border-radius: 20px;
   margin-bottom: 50px;
@@ -177,7 +183,7 @@
 }
 
 .servico-item p {
-  color: #363636;
+  color: #000000;
   line-height: 1.6;
 }
 
@@ -189,23 +195,21 @@
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 20px;
   text-align: justify;
+  color: #6b6b6b;
 }
 
 #servico {
-  color: #272727;
+  color: #707070;
  }
 
 body{
-  background: linear-gradient(135deg, 
-  
-  #363636, 
-  #ffffff 
-);
+  background-color: #000000;
 
 }
+  
 
 .section-contato {
-  background: #111;
+  background: #464646;
   color: #fff;
   padding: 80px 20px;
 }
@@ -257,7 +261,7 @@ body{
 }
 
 .footer {
-  background: #0d0d0d;
+  background: #494949;
   color: #aaa;
   padding: 30px 20px;
   font-size: 0.9rem;
