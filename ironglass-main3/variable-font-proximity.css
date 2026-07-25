@@ -1,0 +1,27 @@
+/* Fonte variável usada no efeito de proximidade do cursor: Archivo
+   (Google Fonts, carregada no <head> do index.html), eixo wght 100-900.
+   Se trocar a fonte de novo, troque também o <link> do Google Fonts
+   no index.html — precisa ser uma fonte VARIÁVEL com eixo wght. */
+
+/* Elemento com o efeito ativo: precisa da fonte variável pro eixo
+   `wght` funcionar (fontes estáticas ignoram font-variation-settings). */
+.vf-proximity {
+  /* !important garante prioridade sobre regras por #id (ex: #historia,
+     que define outra fonte em style.css) — necessário porque o efeito
+     só funciona em fonte VARIÁVEL. */
+  font-family: "Archivo", system-ui, sans-serif !important;
+}
+
+.vf-word {
+  display: inline-block;
+  white-space: nowrap;
+}
+
+.vf-letter {
+  display: inline-block;
+  font-variation-settings: "wght" 400;
+}
+
+.vf-space {
+  display: inline-block;
+}
