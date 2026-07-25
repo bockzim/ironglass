@@ -139,7 +139,7 @@
 }
 
 .servico-item p {
-  color: #555;
+  color: #707070;
   font-size: 1.1rem;
 }
 
@@ -157,6 +157,10 @@
   background: linear-gradient(135deg, #000000, #ffffff);
 }
 
+#c1-titulo, #c2-titulo, #c3-titulo {
+  color: #000000;
+  font-weight: bold;
+}
 .servico-item {
   padding: 40px;
   border-radius: 20px;
@@ -198,7 +202,7 @@
 }
 
 #servico {
-  color: #000000;
+  color: #3b3b3b;
  }
 
 body{
