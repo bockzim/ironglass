@@ -112,7 +112,7 @@
 }
 
 .card-servico {
-  background: linear-gradient(135deg, #1f1f1f, #e7e7e7);
+  background: linear-gradient(135deg, #1f1f1f, #808080);
   padding: 25px;
   border-radius: 15px;
   box-shadow: 0 8px 20px rgba(0,0,0,0.08);
@@ -148,13 +148,13 @@
 }
 
 #c1{
-  background: linear-gradient(to right, #000000, #ffffff);
+  background: linear-gradient(to right, #000000, #929191);
 }
 #c2{
-  background: linear-gradient(to left, #000000, #ffffff);
+  background: linear-gradient(to left, #000000, #929191);
 }
 #c3{
-  background: linear-gradient(to right, #000000, #ffffff);
+  background: linear-gradient(to right, #000000, #929191);
 }
 
 #c1-titulo, #c2-titulo, #c3-titulo {
